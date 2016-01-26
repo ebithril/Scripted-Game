@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Precompiled">
+      <UniqueIdentifier>{b07bafa4-d21c-4674-8f50-96a0b05e15ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI">
+      <UniqueIdentifier>{4b314ca3-419f-4de4-9163-c7ceba1e3d7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Controller">
+      <UniqueIdentifier>{4a6e8a0b-8473-4711-8562-ab3780bcc62c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Actor">
+      <UniqueIdentifier>{4bc9ad85-ea48-435e-9b88-081966db0823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\EventManager">
+      <UniqueIdentifier>{b01eb760-6a42-46fd-b43f-e57fc7fd106d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\PollingStation">
+      <UniqueIdentifier>{2934d87d-42ea-4256-85f1-c5a2de9a7203}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Obstacle">
+      <UniqueIdentifier>{dc6acce9-b7bd-4ee5-845e-e1821ca69322}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Controller\Labb3">
+      <UniqueIdentifier>{95030468-2f6e-4778-872d-b46d74dc86e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Controller\Labb4">
+      <UniqueIdentifier>{ddc7b46a-12a9-48b5-b88d-e79a331e5711}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Controller\Labb5">
+      <UniqueIdentifier>{82879b66-b1f4-4406-b83a-6a3721f869bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Formation">
+      <UniqueIdentifier>{3aca9cae-6b8a-413e-a0d9-270354d56089}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SKIT">
+      <UniqueIdentifier>{6cee2c2c-7ef4-4b12-93f6-8722b86d7908}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SpriteContainer">
+      <UniqueIdentifier>{051c0765-67a8-4f11-b3bd-4b355292c465}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Precompiled</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Precompiled</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWorld.h" />
+    <ClInclude Include="resource.h">
+      <Filter>Precompiled</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.h">
+      <Filter>AI\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="AIEventManager.h">
+      <Filter>AI\EventManager</Filter>
+    </ClInclude>
+    <ClInclude Include="PollingStation.h">
+      <Filter>AI\PollingStation</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>AI\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Macros.h" />
+    <ClInclude Include="Obstacle.h">
+      <Filter>AI\Obstacle</Filter>
+    </ClInclude>
+    <ClInclude Include="ChargeController.h">
+      <Filter>AI\Controller\Labb3</Filter>
+    </ClInclude>
+    <ClInclude Include="FleeController.h">
+      <Filter>AI\Controller\Labb3</Filter>
+    </ClInclude>
+    <ClInclude Include="BlendedBehaviorController.h">
+      <Filter>AI\Controller\Labb4</Filter>
+    </ClInclude>
+    <ClInclude Include="FormationController.h">
+      <Filter>AI\Controller\Labb5</Filter>
+    </ClInclude>
+    <ClInclude Include="Formation.h">
+      <Filter>AI\Formation</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>AI\EventManager</Filter>
+    </ClInclude>
+    <ClInclude Include="HelpFunctions.h" />
+    <ClInclude Include="ExposedFunctions.h" />
+    <ClInclude Include="Game.h">
+      <Filter>SKIT</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h" />
+    <ClInclude Include="SpriteContainer.h">
+      <Filter>SpriteContainer</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Precompiled</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWorld.cpp" />
+    <ClCompile Include="Controller.cpp">
+      <Filter>AI\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>AI\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="AIEventManager.cpp">
+      <Filter>AI\EventManager</Filter>
+    </ClCompile>
+    <ClCompile Include="PollingStation.cpp">
+      <Filter>AI\PollingStation</Filter>
+    </ClCompile>
+    <ClCompile Include="Obstacle.cpp">
+      <Filter>AI\Obstacle</Filter>
+    </ClCompile>
+    <ClCompile Include="ChargeController.cpp">
+      <Filter>AI\Controller\Labb3</Filter>
+    </ClCompile>
+    <ClCompile Include="FleeController.cpp">
+      <Filter>AI\Controller\Labb3</Filter>
+    </ClCompile>
+    <ClCompile Include="BlendedBehaviorController.cpp">
+      <Filter>AI\Controller\Labb4</Filter>
+    </ClCompile>
+    <ClCompile Include="FormationController.cpp">
+      <Filter>AI\Controller\Labb5</Filter>
+    </ClCompile>
+    <ClCompile Include="Formation.cpp">
+      <Filter>AI\Formation</Filter>
+    </ClCompile>
+    <ClCompile Include="ExposedFunctions.cpp" />
+    <ClCompile Include="Game.cpp">
+      <Filter>SKIT</Filter>
+    </ClCompile>
+    <ClCompile Include="Box.cpp" />
+    <ClCompile Include="HelpFunctions.cpp" />
+    <ClCompile Include="SpriteContainer.cpp">
+      <Filter>SpriteContainer</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp" />
+  </ItemGroup>
+</Project>
